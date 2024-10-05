@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .theme-toggle-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .add-todo input, 
+  .add-todo select, 
+  .add-todo input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-btn, .delete-btn {
+    background-color: #ffc107;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #007bff;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  
